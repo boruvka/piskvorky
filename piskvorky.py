@@ -48,9 +48,3 @@ while True:
 		    break
 	if zpracuj_tah_pc(pole, pozice):
 		break
-
-
-
-
-
-
