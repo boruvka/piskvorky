@@ -44,7 +44,7 @@ while True:
 	    pozice = random.randint(0, delka_pole-1)
 	    if pole[pozice] == ".":
 		break
-	        if pole[pozice-1] == "X"  pole[pozice+1]=="X":
+	        if pole[pozice-1] == "X" or pole[pozice+1]=="X":
 		    break
 	if zpracuj_tah_pc(pole, pozice):
 		break
